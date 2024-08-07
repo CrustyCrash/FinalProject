@@ -192,7 +192,7 @@ int accelerate_flow(const t_param params, t_speed * cells, unsigned char* obstac
     const double w2 = params.density * params.accel / 36.0;
 
     /* modify the first column of the grid */
-    #pragma omp parallel for default(none) shared(cells, parmas.nx, params.ny, obstacles, w1, w2) private(speeds,ii, offset)
+    #pragma omp parallel for default(none) shared(cells, params, obstacles, w1, w2) private(speeds,ii, offset)
     for (ii = 0; ii < params.ny; ii++)
     {
         offset = ii * params.nx /* + jj (where jj=0) */;
