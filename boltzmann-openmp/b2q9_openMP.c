@@ -29,6 +29,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <omp.h>
 
 #ifndef _WIN32
 /* Not available on Microsoft Windows */
@@ -142,6 +143,10 @@ int main(int argc, char* argv[]) {
     /* iterate for maxIters timesteps */
     tic = clock();
 
+#ifndef _WIN32
+    gettimeofday(&tv1, NULL);
+#endif
+
     for (ii = 0; ii < params.maxIters; ii++) {
         timestep(params, src_cells, dst_cells, obstacles);
         temp_swap = src_cells;
@@ -165,6 +170,10 @@ int main(int argc, char* argv[]) {
     printf("==done==\n");
     printf("Reynolds number:\t%.12E\n", calc_reynolds(params, src_cells, obstacles));
     printf("Elapsed CPU time: \t%ld (ms)\n", (toc - tic) / (CLOCKS_PER_SEC / 1000));
+
+#ifndef _WIN32
+    printf("Elapsed wall time:\t%ld (ms)\n", (tv3.tv_sec * 1000) + (tv3.tv_usec / 1000));
+#endif
 
     #pragma omp parallel
     {
@@ -237,7 +246,7 @@ int collision(const t_param params, t_speed* src_cells, t_speed* dst_cells, unsi
     /* loop over the cells in the grid.
      * NB: the collision step is called after the propagate step and so values of interest are in the scratch-space grid
      */
-    #pragma omp parallel for default (none) shared(dst_cells, src_cells, params) private(ii, jj, kk, offset, speeds, dst_speeds, local_density, u_x, u_y, u_sq, u, d_equ, x_e, x_w, y_n, y_s) 
+    #pragma omp parallel for default (none) shared(dst_cells, src_cells, params, obstacles, w0, w1, w2) private(ii, jj, kk, offset, speeds, dst_speeds, local_density, u_x, u_y, u_sq, u, d_equ, x_e, x_w, y_n, y_s) 
     for (ii = 0; ii < params.ny; ii++) {
         offset = ii * params.nx;                    // parmas.ny, params.nx, params.lookup_y_s, params.lookup_y_n --> replace params in shared 
         y_s = params.lookup_y_s[ii];
