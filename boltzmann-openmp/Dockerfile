@@ -4,9 +4,8 @@ FROM alpine:latest
 # Install necessary build tools
 RUN apk update && apk add \
     build-base \
-    cmake
-    # Install additional dependencies if required
-    # e.g., libgcc libstdc++
+    cmake \
+    gfortran  # To fix the linking error
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -19,6 +18,3 @@ RUN cmake .
 
 # Build the project
 RUN make
-
-# Run the executable
-CMD ["./boltzmann-openmp"]
