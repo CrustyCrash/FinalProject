@@ -1,12 +1,13 @@
 # Use an official Alpine Linux as a base image
-FROM alpine:latest
+FROM debian:bookworm-slim
 
 # Install necessary build tools
-RUN apk update && apk add \
-    build-base \
+RUN apt-get update && \
+    apt-get install -y \
+    build-essential \
     cmake \
-    gfortran  # To fix the linking error
-
+    gfortran
+    
 # Set the working directory inside the container
 WORKDIR /app
 
