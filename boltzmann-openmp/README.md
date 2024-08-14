@@ -37,7 +37,7 @@ cd <repository-directory>
 cmake .
 ```
 then build project using msvc
-Usage
+## Usage
 Run the simulation using the following command:
 
 ```bash
