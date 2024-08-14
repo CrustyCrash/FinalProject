@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\boltzmann-openacc",
+    "\\boltzmann-openmp"
+  ],
+  "SelectedNode": "\\boltzmann-openacc\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

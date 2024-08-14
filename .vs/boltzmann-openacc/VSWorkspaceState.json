@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "boltzmann-openacc\\out\\build\\x64-Debug",
+      "boltzmann-openacc\\out\\install\\x64-Debug"
+    ]
+  }
+}
