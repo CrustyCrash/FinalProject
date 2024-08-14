@@ -1,18 +1,44 @@
-cmake_minimum_required(VERSION 3.14.5)
+cmake_minimum_required(VERSION 3.10)
 project(boltzmann-openacc)
 
-set(CMAKE_CXX_STANDARD 17)
+# Set the C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Enable OpenACC
-if (CMAKE_C_COMPILER_ID MATCHES "GNU")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenacc")
-elseif (CMAKE_C_COMPILER_ID MATCHES "Cray")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -hacc")
-elseif (CMAKE_C_COMPILER_ID MATCHES "PGI")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -acc")
-elseif (CMAKE_C_COMPILER_ID MATCHES "Intel")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -qopenacc")
+# Include the OpenACC detection module
+include(FindOpenACC)
+
+if(OpenACC_FOUND)
+    message(STATUS "OpenACC detected")
+
+    # Set compile options for C and C++
+    if(OpenACC_C_FOUND)
+        message(STATUS "OpenACC C flags: ${OpenACC_C_FLAGS}")
+        add_compile_options(${OpenACC_C_FLAGS})
+    endif()
+
+    if(OpenACC_CXX_FOUND)
+        message(STATUS "OpenACC CXX flags: ${OpenACC_CXX_FLAGS}")
+        add_compile_options(${OpenACC_CXX_FLAGS})
+    endif()
+
+else()
+    message(FATAL_ERROR "OpenACC not found")
 endif()
 
-# Add executable
+# Add source files
+set(SOURCES
+    openacc b2q9_openACC.c 
+)
+
+# Create the executable
 add_executable(boltzmann-openacc b2q9_openACC.c)
+
+# Link OpenACC libraries if any are found
+if(OpenACC_C_FOUND OR OpenACC_CXX_FOUND)
+    target_link_libraries(${PROJECT_NAME}
+        $<$<COMPILE_LANGUAGE:C>:OpenACC::OpenACC_C>
+        $<$<COMPILE_LANGUAGE:CXX>:OpenACC::OpenACC_CXX>
+    )
+
+endif()
