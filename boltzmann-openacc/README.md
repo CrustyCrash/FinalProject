@@ -18,3 +18,4 @@ Make sure you have `cmake` and `make` installed. You can install them using your
 ```shell
 sudo apt-get update
 sudo apt-get install cmake make
+re
