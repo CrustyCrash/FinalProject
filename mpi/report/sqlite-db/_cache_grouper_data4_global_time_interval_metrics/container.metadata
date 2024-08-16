@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<<<<<<< HEAD
+<bag xmlns:unsignedLong="http://www.w3.org/2001/XMLSchema#unsignedLong">
+ <entry path="grouper" unsignedLong:size="1">
+  <indexFields>
+   <field path="cpu_data_scale"/>
+   <field path="global_elapsed_time_data_scale"/>
+  </indexFields>
+  <int64Fields>
+   <field path="cpu_data_duration"/>
+   <field path="cpu_data_count"/>
+   <field path="cpu_data_inst_count"/>
+   <field path="global_elapsed_time_data_duration"/>
+=======
+<bag xmlns:int="http://www.w3.org/2001/XMLSchema#int" xmlns:unsignedLong="http://www.w3.org/2001/XMLSchema#unsignedLong">
+ <entry path="grouper" unsignedLong:size="15">
+  <indexFields>
+   <field path="global_elapsed_time_data_scale"/>
+   <field path="pmu_data_attr_event_type"/>
+   <field path="pmu_data_scale"/>
+   <emptyField path="cpu_data_scale" int:defaultValue="1"/>
+  </indexFields>
+  <int64Fields>
+   <field path="global_elapsed_time_data_duration"/>
+   <field path="pmu_data_duration"/>
+   <field path="pmu_data_count"/>
+   <field path="pmu_data_inst_count"/>
+   <emptyField path="cpu_data_duration" int:defaultValue="0"/>
+   <emptyField path="cpu_data_count" int:defaultValue="0"/>
+   <emptyField path="cpu_data_inst_count" int:defaultValue="0"/>
+>>>>>>> efe6e3ab49d2e9ff071d6dd451e4cb63593afee2
+  </int64Fields>
+  <doubleFields/>
+ </entry>
+</bag>

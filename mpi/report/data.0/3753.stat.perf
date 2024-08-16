@@ -1,0 +1,27 @@
+# AMPLXE_PERF_STAT
+# hostname : DESKTOP-I3A7UQ5
+# os release : 5.15.153.1-microsoft-standard-WSL2
+# arch : x86_64
+# cpuid : GenuineIntel,6,142,9
+# cpudesc : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+# total memory : 8055680 kB
+# nrcpus online : 4
+# nrcpus avail : 4
+# sibling cores : 0-3
+# sibling threads : 0-1
+# sibling threads : 2-3
+# process id : 3753
+;;256986894;0
+;;227419958;1
+;;348598945;2
+;;2404959;3
+;;1210883;4
+;;98;5
+;;8;6
+;;13;7
+;;3852;8
+;;7;9
+;;0;10
+;;41235;11
+;;671540037;12
+;;687163396;13
