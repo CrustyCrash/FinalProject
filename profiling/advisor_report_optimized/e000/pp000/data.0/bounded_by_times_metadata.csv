@@ -1,0 +1,6 @@
+name
+time_by_compute
+time_by_l3_bw
+time_by_gti_bw
+time_by_llc_bw
+time_by_dram_bw

@@ -1,0 +1,126 @@
+1 [139873963387776] INFO perfrun.launcher <> - Launcher main begin
+1 [139873963387776] INFO perfrun.launcher <> - MessageCatalogInit finished
+1 [139873963387776] INFO perfrun.launcher <> - Launcher instance created
+1 [139873963387776] INFO perfrun.launcher <> - argc = 7; cmdline = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 5 --option-file /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/config/runss.options 
+76 [139873963387776] INFO perfrun.perfcollector <> - SEP tool path: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/sep
+83 [139873963387776] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+83 [139873963387776] INFO perfrun.launcher <> - create file finder object
+83 [139873963387776] INFO perfrun.launcher <> - create a result directory: pattern = /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized pid = 4294967295
+84 [139873963387776] INFO perfrun.sdk <> - checked that the directory /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized is a local directory
+84 [139873963387776] INFO perfrun.sdk <> - the directory /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized is a local directory with FS type ID 61267
+85 [139873963387776] INFO perfrun.launcher <> - create data directory = /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0
+85 [139873963387776] INFO perfrun.launcher <> - Creating the master collection flag
+134 [139873963387776] INFO perfrun.launcher <> - Done creating the master collection flag
+138 [139873807754944] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+138 [139873807754944] INFO perfrun.sdk <> - Allocating TMU :/home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0/systemcollector-3617553-hpcsap-DIT400TR-55L.sc
+139 [139873807754944] INFO perfrun.system <> - Tpss based collection
+139 [139873807754944] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+139 [139873807754944] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+139 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+139 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+139 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+139 [139873807754944] INFO perfrun.mrte <> - system-wide mode is 0
+139 [139873807754944] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+161 [139873807754944] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0
+161 [139873807754944] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=hpcsap-DIT400TR-55L
+161 [139873807754944] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime:/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime
+161 [139873807754944] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime:/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime
+161 [139873807754944] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+161 [139873807754944] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+161 [139873807754944] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+161 [139873807754944] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+161 [139873807754944] INFO perfrun.mrte <> - Data directory: /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0
+161 [139873807754944] INFO perfrun.mrte <> - Mrte plugin is initialized
+161 [139873807754944] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.tpss <> - initialize tpss controller
+161 [139873807754944] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+161 [139873807754944] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+161 [139873807754944] INFO perfrun.tpss <> - default obj-size-min=1024
+161 [139873807754944] INFO perfrun.tpss <> - default hash-table-size=0
+161 [139873807754944] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+161 [139873807754944] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+161 [139873963387776] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime:/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime
+161 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime/libittnotify_collector.so
+161 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime/libittnotify_collector.so
+161 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime/libittnotify_collector.so
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime/libittnotify_collector.so
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = hpcsap-DIT400TR-55L
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime:/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/runtime:/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/runtime
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+162 [139873963387776] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+162 [139873963387776] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+163 [139873963387776] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./boltzmann-optimized
+163 [139873963387776] INFO perfrun.launcher <> - Launcher: command line to start after modification = /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/pin -error_file /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib64/libtpsstool.so -t /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/lib32/libtpsstool.so -server_name tpss_ipc.3617553 -prd_dir /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2 -- ./boltzmann-optimized
+163 [139873963387776] INFO perfrun.launcher <> - ProcessCreator object was created
+164 [139873963387776] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+167 [139873807754944] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied [system:13]: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+167 [139873807754944] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+169 [139873807754944] INFO perfrun.sdk <> - runCmd: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/sep -platform-info
+169 [139873807754944] INFO perfrun.sdk <> - runCmd started PID 3617590
+183 [139873807754944] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:1083
+184 [139873807754944] INFO perfrun.sdk <> - runCmd: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/amplxe-perf stat --iostat=list
+184 [139873807754944] INFO perfrun.sdk <> - runCmd started PID 3617591
+464 [139873807754944] INFO perfrun.sdk <> - UPI platform topology is not supported on this platform via perf
+464 [139873807754944] INFO perfrun.sdk <> - Mapped device: XG6 NVMe SSD Controller 0000:01:00.0
+464 [139873807754944] INFO perfrun.sdk <> - Mapped device: AST1150 PCI-to-PCI Bridge 0000:02:00.0
+464 [139873807754944] INFO perfrun.sdk <> - Mapped device: ASPEED Graphics Family 0000:03:00.0
+464 [139873807754944] INFO perfrun.sdk <> - Mapped device: ASM1042 SuperSpeed USB Host Controller 0000:17:00.0
+465 [139873807754944] INFO perfrun.sdk <> - Mapped device: I350 Gigabit Network Connection 0000:18:00.0
+465 [139873807754944] INFO perfrun.sdk <> - Mapped device: I350 Gigabit Network Connection 0000:18:00.1
+465 [139873807754944] INFO perfrun.sdk <> - Mapped device: Lexa XT [Radeon PRO WX 2100] 0000:65:00.0
+465 [139873807754944] INFO perfrun.sdk <> - Mapped device: Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X] 0000:65:00.1
+473 [139873807754944] INFO perfrun.sdk <> - runCmd: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/sep -platform-info
+474 [139873807754944] INFO perfrun.sdk <> - runCmd started PID 3617593
+490 [139873807754944] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:1083
+490 [139873807754944] INFO perfrun.sdk <> - runCmd: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/amplxe-perf stat --iostat=list
+491 [139873807754944] INFO perfrun.sdk <> - runCmd started PID 3617594
+764 [139873807754944] INFO perfrun.sdk <> - UPI platform topology is not supported on this platform via perf
+765 [139873807754944] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+765 [139873807754944] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:448
+846 [139873807754944] INFO perfrun.vdso <> - Helper runtool '/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin32/amplxe-runss -dump-vdso -r /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized --tmp-dir /tmp/amplxe-tmp-dhpcsap' returned 0
+940 [139873807754944] INFO perfrun.vdso <> - Helper runtool '/home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-vtune-2024.2.0-ixk4tg2yhpugnwbfiv6hdusvlykbvrht/vtune/2024.2/bin64/amplxe-runss -dump-vdso -r /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized --tmp-dir /tmp/amplxe-tmp-dhpcsap' returned 0
+940 [139873807754944] INFO perfrun.itt <> - start itt controller for pid #3617588
+940 [139873807754944] INFO perfrun.tpss <> - start tpss controller for pid #3617588
+990 [139873963387776] INFO perfrun.launcher <> - Launcher: all plugins were started
+992 [139873963387776] INFO perfrun.launcher <> - DirectoryMonitor object was created
+992 [139873963387776] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+992 [139873963387776] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+992 [139873963387776] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+992 [139873963387776] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1047 [139873963387776] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+60197 [139873963387776] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+60208 [139873807754944] INFO perfrun.itt <> - detach itt controller
+60208 [139873807754944] INFO perfrun.itt <> - detach itt controller done
+60208 [139873807754944] INFO perfrun.tpss <> - stop tpss controller
+60209 [139873807754944] INFO perfrun.sdk <> - De-allocating TMU: /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0/systemcollector-3617553-hpcsap-DIT400TR-55L.sc
+60209 [139873807754944] INFO perfrun.system <> - closed the system trace file: /home/dhpcsap/Desktop/project/boltzmann-optimized/vtune_optimized/data.0/systemcollector-3617553-hpcsap-DIT400TR-55L.sc
+60209 [139873963387776] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+60209 [139873963387776] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+60209 [139873963387776] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+60210 [139873963387776] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+60210 [139873963387776] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+60210 [139873963387776] INFO perfrun.launcher <> - Application exit code: 0
+60210 [139873963387776] INFO perfrun.launcher <> - Exit code: 0

@@ -1,0 +1,16 @@
+Frequency = "1.1 GHz"
+EU_count = 64
+Memory_BW = "48 GB/s"
+PCIe_BW = "0 B/s"
+SLM_BW = 0
+SLM_size = 0
+L3_BW = "281.6 GB/s"
+L3_size = "3 MB"
+GTI_BW = "70.4 GB/s"
+LLC_BW = "70.4 GB/s"
+LLC_size = "8 MB"
+EU_per_subslice = 8
+Memory_subsystem = [ "L3", "GTI", "LLC", "DRAM",]
+device_name = "Gen11 GT2"
+device_id = "gen11_icl"
+platform = "gen11"

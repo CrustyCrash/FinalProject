@@ -1,0 +1,5 @@
+117 [140453328447168] INFO mrtehelpers.mrteenv <> - Product libs directory: /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-advisor-2024.2.0-t3xpfxqp44zljmskludh5eixagltravz/advisor/2024.2/lib64
+117 [140453328447168] INFO mrtehelpers.mrteenv <> - File mask: advixe_samplingmrte_clrprof*
+133 [140453328447168] INFO mrtehelpers.mrteenv <> - File name: lib
+133 [140453328447168] ERROR mrtehelpers.mrteenv <> - Failed to init shared library lib located at /home/dhpcsap/spack/opt/spack/linux-ubuntu22.10-cascadelake/gcc-12.2.0/intel-oneapi-advisor-2024.2.0-t3xpfxqp44zljmskludh5eixagltravz/advisor/2024.2/lib64, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:361
+133 [140453328447168] ERROR mrtehelpers.mrteenv <> - CLR support is disabled because profiler GUID is empty, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:185

@@ -1,0 +1,12 @@
+name,raw_value,mem_level,data_type,data_size,op_type,device
+L3 Bandwidth,281600000000,0,,,,gen11_icl
+GTI Bandwidth,140800000000,1,,,,gen11_icl
+LLC Bandwidth,140800000000,2,,,,gen11_icl
+DRAM Bandwidth,48000000000.0,3,,,,gen11_icl
+Int32 ADD Peak,563200000000.0,,int,32,ADD,gen11_icl
+Int64 ADD Peak,18773333333.333332,,int,64,ADD,gen11_icl
+Float32 MAD Peak,1126400000000.0,,float,32,MAD,gen11_icl
+Float64 MAD Peak,37546666666.666664,,float,64,MAD,gen11_icl
+Float32 ADD Peak,563200000000.0,,float,32,ADD,gen11_icl
+Float64 ADD Peak,18773333333.333332,,float,64,ADD,gen11_icl
+Float32 MATH Peak,140800000000.0,,float,32,MATH,gen11_icl

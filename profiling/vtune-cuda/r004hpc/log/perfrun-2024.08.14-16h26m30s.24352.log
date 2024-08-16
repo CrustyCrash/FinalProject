@@ -1,0 +1,122 @@
+75 [3788] INFO perfrun.launcher <> - Launcher main begin
+80 [3788] INFO perfrun.launcher <> - MessageCatalogInit finished
+80 [3788] INFO perfrun.launcher <> - Launcher instance created
+80 [3788] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1000 --option-file D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\config\runsa.options 
+105 [3788] INFO perfrun.launcher <> - New signal handler callback was added
+151 [3788] INFO perfrun.perfcollector <> - SEP tool path: C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\sep.exe
+175 [3788] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+176 [3788] INFO perfrun.launcher <> - create file finder object
+176 [3788] INFO perfrun.launcher <> - create a result directory: pattern = D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc pid = 4294967295
+181 [3788] INFO perfrun.launcher <> - create data directory = D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0
+182 [3788] INFO perfrun.launcher <> - Creating the master collection flag
+191 [3788] INFO perfrun.launcher <> - Done creating the master collection flag
+191 [21468] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+192 [21468] INFO perfrun.sdk <> - Allocating TMU :D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\systemcollector-24352-DESKTOP-K8ALCKG.sc
+192 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+195 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+195 [21468] INFO perfrun.gpu <> - Event consumer configurations: 
+204 [21468] INFO perfrun.gpu <> - DeviceInfo: address 0:0:2.0 subdevice index 0 preset 2 sampling interval 1000us
+205 [21468] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+205 [21468] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+205 [21468] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+205 [21468] INFO perfrun.mrte <> - system-wide mode is 0
+205 [21468] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+232 [21468] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0
+232 [21468] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-K8ALCKG
+232 [21468] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+232 [21468] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Mingw\mingw64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64;D:\Development\SDL2\lib\x64;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.0\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.2\bin641;C:\fftw-3.3.5-dll64;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.0.2-essentials_build\bin
+232 [21468] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+232 [21468] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+232 [21468] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+232 [21468] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+232 [21468] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+232 [21468] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+232 [21468] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+232 [21468] INFO perfrun.mrte <> - Data directory: D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0
+232 [21468] INFO perfrun.mrte <> - Mrte plugin is initialized
+232 [21468] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+232 [21468] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+232 [21468] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+233 [21468] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=2688000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2688000,INST_RETIRED.ANY:sample:sa=2688000,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2688000,CPU_CLK_UNHALTED.THREAD_P,EXE_ACTIVITY.BOUND_ON_LOADS,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_BUBBLES.CORE,INT_MISC.UOP_DROPPING,MEMORY_ACTIVITY.STALLS_L1D_MISS,MEMORY_ACTIVITY.STALLS_L2_MISS,MEMORY_ACTIVITY.STALLS_L3_MISS,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.MEMORY_BOUND_SLOTS,TOPDOWN.SLOTS,UOPS_RETIRED.SLOTS:sa=2000003,LD_HEAD.ANY_AT_RET,LD_HEAD.L1_BOUND_AT_RET,LD_HEAD.L1_MISS_AT_RET,MEM_BOUND_STALLS.LOAD,MEM_BOUND_STALLS.LOAD_DRAM_HIT,MEM_BOUND_STALLS.LOAD_L2_HIT,MEM_BOUND_STALLS.LOAD_LLC_HIT,MEM_SCHEDULER_BLOCK.ALL,MEM_SCHEDULER_BLOCK.ST_BUF,TOPDOWN_BE_BOUND.ALL,TOPDOWN_BE_BOUND.MEM_SCHEDULER,TOPDOWN_FE_BOUND.ALL,TOPDOWN_RETIRING.ALL,TOPDOWN.SLOTS_P,MEM_INST_RETIRED.ALL_STORES:sa=100003,MEM_INST_RETIRED.ALL_LOADS:sa=100003,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,UOPS_EXECUTED.X87:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,UNC_M_CAS_COUNT_RD,UNC_M_CAS_COUNT_WR -experimental
+237 [21468] INFO perfrun.sdk <> - runCmd started PID 15356
+433 [21468] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.tpss <> - initialize tpss controller
+433 [21468] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+433 [21468] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+434 [3788] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Mingw\mingw64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64;D:\Development\SDL2\lib\x64;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.0\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.2\bin641;C:\fftw-3.3.5-dll64;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.0.2-essentials_build\bin
+434 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime\ittnotify_collector.dll
+434 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime\ittnotify_collector.dll
+435 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+435 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime\ittnotify_collector.dll
+435 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime\ittnotify_collector.dll
+435 [3788] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime\ittnotify_collector.dll;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime\ittnotify_collector.dll
+435 [3788] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+435 [3788] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+435 [3788] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+435 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0
+435 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-K8ALCKG
+435 [3788] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+435 [3788] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\runtime;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Mingw\mingw64\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64;D:\Development\SDL2\lib\x64;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.0\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.2\bin641;C:\fftw-3.3.5-dll64;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Lenovo\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.0.2-essentials_build\bin
+435 [3788] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+435 [3788] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+436 [3788] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+436 [3788] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+436 [3788] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+436 [3788] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+436 [3788] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+436 [3788] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+440 [3788] INFO perfrun.sdk <> - IProcessUtil: the given executable 'D:\Project\boltzmann-cuda\Debug\boltzmann-cuda.exe' is valid.
+440 [3788] INFO perfrun.launcher <> - Launcher: command line to start before modification = D:\Project\boltzmann-cuda\Debug\boltzmann-cuda.exe
+441 [3788] INFO perfrun.launcher <> - Launcher: command line to start after modification = D:\Project\boltzmann-cuda\Debug\boltzmann-cuda.exe
+441 [3788] INFO perfrun.launcher <> - ProcessCreator object was created
+442 [3788] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+443 [21468] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement started.
+6178 [21468] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement finished.
+6297 [21468] INFO perfrun.itt <> - start itt controller for pid #15792
+6303 [21468] INFO perfrun.sdk <> - Allocating TMU :D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\gen_metrics0_0_2_0_0.0.cfg
+6303 [21468] INFO perfrun.sdk <> - De-allocating TMU: D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\gen_metrics0_0_2_0_0.0.cfg
+6344 [21468] INFO perfrun.gpu <> - Creating main data processing loop
+6345 [14748] INFO perfrun.sdk <> - Allocating TMU :D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\gen_metrics0_0_2_0_0.0.vtss
+6345 [21468] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\sep.exe" -start -experimental -uem timer=10 -em factor=5 -p-state trigger=CPU_CLK_UNHALTED.REF_TSC -out "D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\sep53dc.20240814T162636.880563" -ec INST_RETIRED.ANY:sample:sa=2688000,CPU_CLK_UNHALTED.THREAD:sa=2688000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2688000,MEMORY_ACTIVITY.STALLS_L1D_MISS,MEMORY_ACTIVITY.STALLS_L2_MISS,MEMORY_ACTIVITY.STALLS_L3_MISS,MEM_LOAD_RETIRED.L1_HIT,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2688000,CPU_CLK_UNHALTED.THREAD_P,EXE_ACTIVITY.BOUND_ON_LOADS,FRONTEND_RETIRED.LATENCY_GE_4,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,MEM_INST_RETIRED.ALL_STORES:sa=100003,IDQ_BUBBLES.CORE,INT_MISC.UOP_DROPPING,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.MEMORY_BOUND_SLOTS,MEM_INST_RETIRED.ALL_LOADS:sa=100003,UOPS_RETIRED.SLOTS:sa=2000003,TOPDOWN.SLOTS_P,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,UOPS_EXECUTED.X87:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,LD_HEAD.ANY_AT_RET,LD_HEAD.L1_BOUND_AT_RET,LD_HEAD.L1_MISS_AT_RET,MEM_BOUND_STALLS.LOAD,MEM_BOUND_STALLS.LOAD_DRAM_HIT,MEM_BOUND_STALLS.LOAD_L2_HIT,MEM_BOUND_STALLS.LOAD_LLC_HIT,MEM_SCHEDULER_BLOCK.ALL,MEM_SCHEDULER_BLOCK.ST_BUF,TOPDOWN_BE_BOUND.ALL,TOPDOWN_BE_BOUND.MEM_SCHEDULER,TOPDOWN_FE_BOUND.ALL,TOPDOWN_RETIRING.ALL,UNC_M_CAS_COUNT_RD,UNC_M_CAS_COUNT_WR, -d 0 -uem factor=10
+6345 [14748] INFO perfrun.gpu <> - IO stream opening, timer period: 1000000, buffer size: 0 subDevice 0 tile 0
+6347 [14748] INFO perfrun.gpu <> - IO stream opened, timer period: 853333, buffer size: 16777216
+6352 [21468] INFO perfrun.sdk <> - runCmd started PID 9708
+6853 [3788] INFO perfrun.launcher <> - Launcher: all plugins were started
+6853 [3788] INFO perfrun.launcher <> - DirectoryMonitor object was created
+6853 [3788] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+6853 [3788] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+6853 [3788] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+6855 [3788] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+6866 [3788] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+9779 [3788] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+9783 [21468] INFO perfrun.itt <> - detach itt controller
+9783 [21468] INFO perfrun.itt <> - detach itt controller done
+9783 [21468] INFO perfrun.gpu <> - Waiting for data collection thread to finish
+9854 [14748] INFO perfrun.sdk <> - De-allocating TMU: D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\gen_metrics0_0_2_0_0.0.vtss
+9866 [14748] INFO perfrun.gpu <> - Data collection routine finished
+9872 [21468] INFO perfrun.gpu <> - Data collection thread finished, shutting down the session
+9873 [21468] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.2\bin64\sep.exe" -stop
+9881 [21468] INFO perfrun.sdk <> - runCmd started PID 23436
+10594 [21468] INFO perfrun.sepdk <> - Sampling successfully stopped.
+
+10594 [21468] INFO perfrun.sepdk <> - Waiting for main SEP process (9708) to finish...
+10594 [21468] INFO perfrun.sepdk <> - Main SEP process finished
+10594 [21468] INFO perfrun.sdk <> - De-allocating TMU: D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\systemcollector-24352-DESKTOP-K8ALCKG.sc
+10610 [21468] INFO perfrun.system <> - closed the system trace file: D:\Project\boltzmann-cuda\Intel® VTune™ Profiler Results\boltzmann-cuda\r004hpc\data.0\systemcollector-24352-DESKTOP-K8ALCKG.sc
+10610 [3788] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+10610 [3788] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+10611 [3788] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+10611 [3788] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+10612 [3788] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+10613 [3788] INFO perfrun.launcher <> - Application exit code: 0
+10613 [3788] INFO perfrun.launcher <> - Exit code: 0

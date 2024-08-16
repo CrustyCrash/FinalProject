@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2024/08/16 07:32:32</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="3" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>log-end</type>
+  <arg>2024/08/16 07:32:42</arg>
+</msg>
+
+</log>
+

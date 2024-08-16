@@ -1,0 +1,65 @@
+APM Analyze User-Set Options:
+  advisor_version_check: False
+  config: ['gen11_icl']
+  count_send_latencies: all
+  cpu_scale_factor: 1.0
+  data_tf_histogram: None
+  enforce_baseline_decomposition: None
+  enforce_offloads: None
+  estimate_data_transfer_tax: None
+  model_children: None
+  nd_range_assume_no_deps: False
+  open_project_mode: NONLOCK
+  out_dir: data.0
+  output_files: {'regions_data': 'report.csv', 'app_data': 'whole_app_metrics.csv', 'dot': 'program_tree.dot', 'memory_objects': 'memory_objects.csv', 'memory_objects_by_region': 'memory_objects_by_region.csv', 'all_estimations': 'all_estimations.csv', 'device_list': 'devices.csv', 'device_roofs': 'roofs.csv', 'html_report': 'report.html', 'image': 'image.svg', 'collection_settings': 'collection_settings.log', 'debug_log': 'analyze.log', 'device_config': 'config.toml'}
+  project_dir: e000
+  save_all_estimations: None
+  send_count_source: traffic
+
+APM Analyze Default Options:
+  arch: gen
+  assume_hide_taxes: %
+  assume_parallel: True
+  batching: False
+  check_profitability: True
+  cli_configs: []
+  cli_report: True
+  count_logical_instructions: True
+  count_memory_instructions: True
+  count_mov_instructions: False
+  data_reuse_analysis: False
+  disable_cachesim: False
+  disable_fp64_math_optimization: False
+  estimate_max_speedup: True
+  exclude_from_report: set()
+  force_arithmetics_size: None
+  force_ignore_assembly: False
+  generate_extended_csv: True
+  gpu_kernels_only: False
+  ignore_list: None
+  include_to_report: set()
+  instruction_count_source: ins
+  jit: False
+  loop_filter_threshold: 0.02
+  markup: None
+  min_speedup: False
+  model_system_calls: True
+  mpi_rank: -1
+  nd_range_depth_limit: None
+  no_stacks_mode: False
+  non_accel_breakdown: False
+  out_name_prefix: 
+  overlap_taxes: False
+  refine_repeated_transfer: False
+  repeat_data_transfer: False
+  search_nd_range: True
+  select_loops: None
+  set_dependency: None
+  set_parallel: None
+  small_node_filter: 0.0
+  threads: None
+  track_heap_objects: True
+  use_collect_configs: True
+  use_extended_math: True
+  use_rows: None
+  verbose: 2

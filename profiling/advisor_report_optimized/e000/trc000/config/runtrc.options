@@ -1,0 +1,17 @@
+-r
+/home/dhpcsap/Desktop/project/boltzmann-optimized/advisor_report/e000/trc000
+-quiet
+-cs-file
+/home/dhpcsap/Desktop/project/boltzmann-optimized/advisor_report/e000/callstacks.def
+--cs-mode=count-loops,count-flops,stl-profiling,stack-stitching
+--count-flops
+--jit-profiling
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--offload-simulator
+--offload-simulator-page-size=4096
+--enable-cache-simulation
+--cache-config=8:64w:4k/1:384w:3m/1:16w:8m
+--cachesim-sampling-factor=10
+--target-gpu=none
+--
+./boltzmann-optimized
