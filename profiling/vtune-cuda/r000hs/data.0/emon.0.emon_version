@@ -1,0 +1,163 @@
+EMON Version .............. V11.47 Beta 
+Copyright(C) 1993 Intel Corporation. All rights reserved.
+Application Build Date: May 23 2024 at 19:49:41
+SEP Driver Version: 5.47 Beta (public)
+PAX Driver Version: 1.0
+Virtualization platform: Host VM on Hyper-V with VBS enabled
+total_number_of_processors  ...... 20
+number_of_online_processors ...... 20
+number_of_processors (P-core)	...... 12
+number_of_online_processors (P-core)	...... 12
+number_of_processors (E-core)	...... 8
+number_of_online_processors (E-core)	...... 8
+cpu_family ................ Intel(R) microarchitecture code named Alderlake-P
+cpu_model ................. 154 (0x9a)
+cpu_stepping .............. 3 (0x3)
+
+Cache Info (P-core):
+L1 Data Cache ............. 48KB, 12-way, 64-byte line size
+                            5 HW threads share this cache, No SW Init Required
+L1 Code Cache ............. 32KB, 8-way, 64-byte line size
+                            5 HW threads share this cache, No SW Init Required
+L2 Unified Cache .......... 1MB, 10-way, 64-byte line size
+                            29 HW threads share this cache, No SW Init Required
+L3 Unified Cache .......... 24MB, 12-way, 64-byte line size
+                            No SW Init Required
+64-byte Prefetching
+
+Cache Info (E-core):
+L1 Data Cache ............. 32KB, 8-way, 64-byte line size
+                            5 HW threads share this cache, No SW Init Required
+L1 Code Cache ............. 64KB, 8-way, 64-byte line size
+                            5 HW threads share this cache, No SW Init Required
+L2 Unified Cache .......... 2MB, 16-way, 64-byte line size
+                            29 HW threads share this cache, No SW Init Required
+L3 Unified Cache .......... 24MB, 12-way, 64-byte line size
+                            No SW Init Required
+64-byte Prefetching
+
+Device Type ............... Intel(R) microarchitecture code named Alderlake-P
+EMON Database ............. alderlake
+Platform type ............. 148
+
+System Features:
+    (Number of Packages:    1)
+    (Cores Per Package:    20)
+    (Threads Per Package:  20)
+
+Processor Features (P-core):
+core architecture ......... Golden Cove
+number_of_selectors ....... 8
+number_of_var_counters .... 8
+number_of_fixed_ctrs....... 4
+Fixed Counter Events:
+counter 0 ................. INST_RETIRED.ANY
+counter 1 ................. CPU_CLK_UNHALTED.THREAD
+counter 2 ................. CPU_CLK_UNHALTED.REF_TSC
+counter 3 ................. TOPDOWN.SLOTS
+number of devices ......... 1
+number_of_events .......... 301
+    (Thermal Throttling) (Enabled)
+    (Hyper-Threading) (Disabled)
+    (DCU IP Prefetching) (Enabled)
+    (DCU Streamer Prefetching) (Enabled)
+    (MLC AMP Prefetching) (Enabled)
+    (MLC Spatial Prefetching) (Enabled)
+    (MLC Streamer Prefetching) (Enabled)
+    (Cores Per Package:    12)
+    (Threads Per Package:  12)
+    (Threads Per Core:      1)
+
+Processor Features (E-core):
+core architecture ......... Gracemont
+number_of_selectors ....... 6
+number_of_var_counters .... 6
+number_of_fixed_ctrs....... 3
+Fixed Counter Events:
+counter 0 ................. INST_RETIRED.ANY
+counter 1 ................. CPU_CLK_UNHALTED.CORE
+counter 2 ................. CPU_CLK_UNHALTED.REF_TSC
+number of devices ......... 1
+number_of_events .......... 135
+    (Thermal Throttling) (Enabled)
+    (DCU IP Prefetching) (Enabled)
+    (DCU Streamer Prefetching) (Enabled)
+    (DCU Next Page Prefetching) (Enabled)
+    (MLC Streamer Prefetching) (Enabled)
+    (Cores Per Package:    8)
+    (Threads Per Package:  8)
+    (Threads Per Core:      1)
+
+Uncore Performance Monitoring Units:
+    cbo             : 8
+    ncu             : 2
+    imc             : 2
+
+GPU Information:
+    No GPU devices found
+
+RAM Features:
+    (Package/Memory Controller/Channel)
+	(0/0/0) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Capacity = 8 GB, Data Width = 64, Form Factor = SODIMM, Memory Type = DDR5, Memory Type Detail = Synchronous, Speed = 4800MHz, Configured Speed = 4800MHz)
+		 (Dimm1 Info: Capacity = 8 GB, Data Width = 64, Form Factor = SODIMM, Memory Type = DDR5, Memory Type Detail = Synchronous, Speed = 4800MHz, Configured Speed = 4800MHz)
+	(0/0/1) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/0/2) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/0/3) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/1/0) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/1/1) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/1/2) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/1/3) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+
+TSC Freq .................. 2688.00 MHz
+
+MAX TURBO RATIO (limit)
+1C .......... 4700.00 MHz
+2C .......... 4700.00 MHz
+3C .......... 4400.00 MHz
+4C .......... 4400.00 MHz
+5C .......... 4100.00 MHz
+6C .......... 4100.00 MHz
+7C .......... 4100.00 MHz
+8C .......... 4100.00 MHz
+
+NUMA node(s):		  0
+
+		   OS Processor <-> Physical/Logical Mapping
+		   -----------------------------------------
+	  OS Processor	  Phys. Package	      Core	Logical Processor	Core Type		Core Arch
+		0		0		0		0		P-core		Golden Cove
+		1		0		0		1		P-core		Golden Cove
+		2		0		4		0		P-core		Golden Cove
+		3		0		4		1		P-core		Golden Cove
+		4		0		8		0		P-core		Golden Cove
+		5		0		8		1		P-core		Golden Cove
+		6		0		12		0		P-core		Golden Cove
+		7		0		12		1		P-core		Golden Cove
+		8		0		16		0		P-core		Golden Cove
+		9		0		16		1		P-core		Golden Cove
+		10		0		20		0		P-core		Golden Cove
+		11		0		20		1		P-core		Golden Cove
+		12		0		24		0		E-core		Gracemont
+		13		0		25		0		E-core		Gracemont
+		14		0		26		0		E-core		Gracemont
+		15		0		27		0		E-core		Gracemont
+		16		0		28		0		E-core		Gracemont
+		17		0		29		0		E-core		Gracemont
+		18		0		30		0		E-core		Gracemont
+		19		0		31		0		E-core		Gracemont
+		   -----------------------------------------
