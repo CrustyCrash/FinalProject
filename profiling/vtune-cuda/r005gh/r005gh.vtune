@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1723764104</timestamp>
+  <hostname>DESKTOP-K8ALCKG</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Profiler 2024.2.0</product>
+  <buildNumber type="s32_t">628218</buildNumber>
+  <logicalCPUCount type="s32_t">20</logicalCPUCount>
+  <physicalCoreCount type="s32_t">14</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2688000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">154</CPUModel>
+  <CPUStepping type="s32_t">3</CPUStepping>
+  <CPUBrandName>12th Gen Intel(R) Core(TM) i7-12700H</CPUBrandName>
+  <isa>avx2</isa>
+  <collectionTimeBegin type="u64_t">1723764104</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1723764114</collectionTimeEnd>
+  <variables>
+   <at>gh</at>
+  </variables>
+ </rdmgr>
+</root>
