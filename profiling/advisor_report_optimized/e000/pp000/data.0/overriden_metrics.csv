@@ -1,0 +1,33 @@
+region_id,estimation_id,overriden_name,overriden_value,specified_by,original_value
+605,0,dependent_iterations_distance,inf,assumed,inf
+605,0,has_dependency,False,assumed,True
+605,0,dependency_type,Parallel: Assumed,assumed,
+605,0,dependency_key,parallel_assumed,assumed,
+5,0,dependent_iterations_distance,inf,assumed,inf
+5,0,has_dependency,False,assumed,True
+5,0,dependency_type,Parallel: Assumed,assumed,
+5,0,dependency_key,parallel_assumed,assumed,
+327,0,dependent_iterations_distance,inf,assumed,inf
+327,0,has_dependency,False,assumed,True
+327,0,dependency_type,Parallel: Assumed,assumed,
+327,0,dependency_key,parallel_assumed,assumed,
+260,0,dependent_iterations_distance,inf,assumed,inf
+260,0,has_dependency,False,assumed,True
+260,0,dependency_type,Parallel: Assumed,assumed,
+260,0,dependency_key,parallel_assumed,assumed,
+217,0,dependent_iterations_distance,inf,assumed,inf
+217,0,has_dependency,False,assumed,True
+217,0,dependency_type,Parallel: Assumed,assumed,
+217,0,dependency_key,parallel_assumed,assumed,
+323,0,dependent_iterations_distance,inf,assumed,inf
+323,0,has_dependency,False,assumed,True
+323,0,dependency_type,Parallel: Assumed,assumed,
+323,0,dependency_key,parallel_assumed,assumed,
+335,0,dependent_iterations_distance,inf,assumed,inf
+335,0,has_dependency,False,assumed,True
+335,0,dependency_type,Parallel: Assumed,assumed,
+335,0,dependency_key,parallel_assumed,assumed,
+32,0,dependent_iterations_distance,inf,assumed,inf
+32,0,has_dependency,False,assumed,True
+32,0,dependency_type,Parallel: Assumed,assumed,
+32,0,dependency_key,parallel_assumed,assumed,

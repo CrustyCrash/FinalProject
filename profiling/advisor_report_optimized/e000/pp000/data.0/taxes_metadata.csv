@@ -1,0 +1,9 @@
+name,offload_tax_summand
+data_tax_read,False
+data_tax_write,False
+data_tax,True
+launch_tax,True
+offload_tax,False
+data_tax_read_no_reuse,False
+data_tax_write_no_reuse,False
+data_tax_no_reuse,False

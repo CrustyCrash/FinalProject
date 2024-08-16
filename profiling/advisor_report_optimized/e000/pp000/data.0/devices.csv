@@ -1,0 +1,4 @@
+id,type,type_id,shown_name,description,is_projection
+baseline_cpu,host,1,Baseline CPU,Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz,0
+baseline_gpu,unknown,0,Baseline GPU,Unknown GPU,0
+gen11_icl,integrated,2,Gen11 GT2,Intel(R) Gen11 Integrated Graphics Accelerator 64EU,1

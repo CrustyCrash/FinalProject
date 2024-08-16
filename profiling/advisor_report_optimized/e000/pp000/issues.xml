@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:double="http://www.intel.com/2001/XMLSchema#double" xmlns:float="http://www.w3.org/2001/XMLSchema#float" xmlns:int="http://www.w3.org/2001/XMLSchema#int" xmlns:unsignedInt="http://www.w3.org/2001/XMLSchema#unsignedInt" xmlns:unsignedLong="http://www.w3.org/2001/XMLSchema#unsignedLong" int:version="16">
+ <issues>
+  <issue>
+   <unsignedInt:flags>1</unsignedInt:flags>
+   <id>issue_offload</id>
+   <int:severity>3</int:severity>
+   <text/>
+   <title>Code region is recommended for offloading </title>
+   <attributes>
+    <float:severity>3</float:severity>
+   </attributes>
+   <parameters/>
+   <recommendations>
+    <recommendation>
+     <int:confidence>3</int:confidence>
+     <unsignedInt:flags>8</unsignedInt:flags>
+     <id>rec_offload_trivial_c</id>
+     <text/>
+     <title>Code region is recommended for offloading </title>
+     <attributes>
+      <float:confidence>3</float:confidence>
+     </attributes>
+     <parameters>
+      <double:speed_up>7.1970744132995605</double:speed_up>
+      <target_device>Gen11 GT2</target_device>
+     </parameters>
+    </recommendation>
+   </recommendations>
+   <unsignedLong:rowKey>5</unsignedLong:rowKey>
+  </issue>
+ </issues>
+ <traits/>
+</bag>

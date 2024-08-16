@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="verbose">The database has been cleared, elapsed time is 0.383 seconds.</message>
+ <nop/>
+ <message severity="error">Cannot load data file `/home/dhpcsap/Desktop/project/boltzmann-optimized/advisor_report/e000/pp000/data.0/3366340.cpid' ().</message>
+ <nop/>
+ <message severity="verbose">Raw data has been loaded to the database, elapsed time is 0.009 seconds.</message>
+ <nop/>
+ <message severity="verbose">Data transformations have been finished, elapsed time is 0.009 seconds.</message>
+ <nop/>
+ <message severity="verbose">Symbol resolution has been finished, elapsed time is 0.025 seconds.</message>
+ <nop/>
+ <message severity="verbose">Deferred data transformations have been finished, elapsed time is 0.006 seconds.</message>
+ <nop/>
+ <message severity="verbose">Data model parameters have been set, elapsed time is 0.013 seconds.</message>
+ <nop/>
+ <message severity="warning">Cannot find data to precompute. Skipping the precomputation step.</message>
+ <nop/>
+ <message severity="verbose">Precomputing frequently used data has been finished, elapsed time is 0.005 seconds.</message>
+ <nop/>
+ <message severity="verbose">Redundant overtime data has been discarded, elapsed time is 0.001 seconds.</message>
+ <nop/>
+ <message severity="verbose">Raw collector data has been discarded, elapsed time is 0.000 seconds.</message>
+ <nop/>
+ <message severity="verbose">Finalizing the result took 0.514 seconds.</message>
+ <nop/>
+</feedback>

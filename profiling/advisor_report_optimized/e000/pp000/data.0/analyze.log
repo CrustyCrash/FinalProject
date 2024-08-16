@@ -1,0 +1,5 @@
+Info: Results will be stored at '/home/dhpcsap/Desktop/project/boltzmann-optimized/advisor_report/e000/pp000/data.0'. See interactive HTML report in '/home/dhpcsap/Desktop/project/boltzmann-optimized/advisor_report/e000/report'
+Info: Selected accelerator to analyze: Intel(R) Gen11 Integrated Graphics Accelerator 64EU.
+Info: Baseline Host: Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz.
+Info: Binary Name: 'boltzmann-optimized'.
+Warning: Skip the unsupported instruction. Performance estimation may be inaccurate.
